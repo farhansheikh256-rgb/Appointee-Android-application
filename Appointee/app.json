@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Appointee",
+    "slug": "Appointee",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo1.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/logo1.png",
+        "backgroundImage": "./assets/images/logo1.png",
+        "monochromeImage": "./assets/images/logo1.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.joyjordan123.myapp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a3bc2ae0-254d-423b-8af6-2fb8376f2fe4"
+      }
+    }
+  }
+}
